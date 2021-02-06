@@ -7,11 +7,14 @@ class RoundThreeScreen extends StatefulWidget {
 }
 
 class _RoundThreeScreenState extends State<RoundThreeScreen> {
+  // Third round of 2019 Playoffs
   @override
   Widget build(BuildContext context) {
+    // Obtain screen height of device
     double screenHeight = MediaQuery.of(context).size.height;
     return ListView(children: [
       SizedBox(height: screenHeight * 0.02),
+      // Eastern Conference finalists
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,

@@ -21,8 +21,8 @@ class _PlayoffsScreenState extends State<PlayoffsScreen> {
   final Map<int, Widget> cupertinoTabs = const {
     0: Text("Round 1", style: cupertinoStyle),
     1: Text("Round 2", style: cupertinoStyle),
-    2: Text("Round 2", style: cupertinoStyle),
-    3: Text("Round 3", style: cupertinoStyle),
+    2: Text("Round 3", style: cupertinoStyle),
+    3: Text("Round 4", style: cupertinoStyle),
     4: Text("Round 5", style: cupertinoStyle),
   };
 

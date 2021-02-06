@@ -7,11 +7,14 @@ class RoundFourScreen extends StatefulWidget {
 }
 
 class _RoundFourScreenState extends State<RoundFourScreen> {
+  // 2019 NHL Playoffs finalists
   @override
   Widget build(BuildContext context) {
+    // screen height of device
     double screenHeight = MediaQuery.of(context).size.height;
     return ListView(children: [
       SizedBox(height: screenHeight * 0.02),
+      // Eastern Conference finalists
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,
@@ -35,10 +38,6 @@ class _RoundFourScreenState extends State<RoundFourScreen> {
                 SizedBox(width: 10),
                 Text("Boston Bruins", style: cupertinoStyle),
                 Spacer(),
-                Padding(
-                  padding: const EdgeInsets.only(right: 20),
-                  child: Text("", style: cupertinoStyle),
-                )
               ],
             ),
             SizedBox(height: 10),
@@ -51,18 +50,16 @@ class _RoundFourScreenState extends State<RoundFourScreen> {
                 SizedBox(width: 10),
                 Text("Carolina Hurricanes", style: cupertinoStyle),
                 Spacer(),
-                Padding(
-                  padding: const EdgeInsets.only(right: 20),
-                  child: Text("", style: cupertinoStyle),
-                )
               ],
             ),
             SizedBox(height: 10),
+            // First game of the series
             Text("May 10, 2019 @ 7:30pm", style: matchDateStyle),
           ],
         ),
       ),
       SizedBox(height: screenHeight * 0.04),
+      // Western Conference finalists
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,
@@ -110,6 +107,7 @@ class _RoundFourScreenState extends State<RoundFourScreen> {
               ],
             ),
             SizedBox(height: 10),
+            // First game of the series
             Text("May 12, 2019 @ 7:30pm", style: matchDateStyle),
           ],
         ),

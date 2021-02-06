@@ -7,11 +7,15 @@ class RoundTwoScreen extends StatefulWidget {
 }
 
 class _RoundTwoScreenState extends State<RoundTwoScreen> {
+  // Second Round of 2019 Playoffs
+  // Numbers to the right of each team represents the wins in the series
   @override
   Widget build(BuildContext context) {
+    // Obtain screen height of device
     double screenHeight = MediaQuery.of(context).size.height;
     return ListView(children: [
       SizedBox(height: screenHeight * 0.02),
+      // Eastern Conference second round
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,
@@ -57,9 +61,6 @@ class _RoundTwoScreenState extends State<RoundTwoScreen> {
                 )
               ],
             ),
-            // TODO: Check UI
-            // Text("Columbus Blue Jackets proceed to the next round",
-            //     style: matchDateStyle),
           ],
         ),
       ),
@@ -192,6 +193,7 @@ class _RoundTwoScreenState extends State<RoundTwoScreen> {
         ),
       ),
       SizedBox(height: screenHeight * 0.04),
+      // Western conference of second round
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,

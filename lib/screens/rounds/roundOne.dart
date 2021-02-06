@@ -8,11 +8,15 @@ class RoundOneScreen extends StatefulWidget {
 }
 
 class _RoundOneScreenState extends State<RoundOneScreen> {
+  // Table standings of 2019 Playoffs with team points
+
   @override
   Widget build(BuildContext context) {
+    // Obtain screen height of device
     double screenHeight = MediaQuery.of(context).size.height;
     return ListView(children: [
       SizedBox(height: screenHeight * 0.01),
+      // Eastern Conference table standing
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,
@@ -39,6 +43,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Tampa Bay Lightning", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("128", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -50,6 +59,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Boston Bruins", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("107", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -61,6 +75,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Toronto Maple Leafs", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("100", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -72,6 +91,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Montreal Canadiens", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("96", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -83,6 +107,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Florida Panthers", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("86", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -94,6 +123,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Buffalo Sabres", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("76", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -105,6 +139,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Detroit Red Wings", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("74", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -116,6 +155,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Ottawa Senators", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("64", style: cupertinoStyle),
+                )
               ],
             ),
           ],
@@ -140,6 +184,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Washington Capitals", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("104", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -151,6 +200,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("New York Islanders", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("103", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -162,6 +216,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Pittsburgh Penguins", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("100", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -173,6 +232,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Carolina Hurricanes", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("99", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -184,6 +248,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Columbus Blue Jackets", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("98", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -195,6 +264,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Philadelphia Flyers", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("82", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -206,6 +280,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("New York Rangers", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("78", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -217,11 +296,16 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("New Jersey Devils", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("72", style: cupertinoStyle),
+                )
               ],
             ),
           ])),
       SizedBox(height: screenHeight * 0.02),
-      // WESTERN CONFERENCE
+      // Western Conference table standing
       Container(
         alignment: AlignmentDirectional.topStart,
         color: kBg,
@@ -248,6 +332,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Nashville Predators", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("100", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -259,6 +348,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Winnipeg Jets", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("99", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -270,6 +364,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("St. Louis Blues", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("99", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -281,6 +380,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Dallas Stars", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("93", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -292,6 +396,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Colorado Avalanche", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("90", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -303,6 +412,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Chicago Blackhawks", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("84", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -314,6 +428,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Minnesota Wild", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("83", style: cupertinoStyle),
+                )
               ],
             ),
           ],
@@ -338,6 +457,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Calgary Flames", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("107", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -349,6 +473,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("San Jose Sharks", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("101", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -360,6 +489,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Vegas Golden Knights", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("93", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -371,6 +505,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Arizona Coyotes", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("86", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -382,6 +521,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Vancouver Canucks", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("81", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -393,6 +537,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Anaheim Ducks", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("80", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -404,6 +553,11 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Edmonton Oilers", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("79", style: cupertinoStyle),
+                )
               ],
             ),
             Divider(color: kDivider),
@@ -415,9 +569,16 @@ class _RoundOneScreenState extends State<RoundOneScreen> {
                     height: 20),
                 SizedBox(width: 10),
                 Text("Los Angeles Kings", style: cupertinoStyle),
+                Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text("71", style: cupertinoStyle),
+                )
               ],
             ),
           ])),
+      // Adds additional space underneath content in the case of smaller
+      // screens causing no space at the bottom
       SizedBox(height: screenHeight * 0.04),
     ]);
   }
